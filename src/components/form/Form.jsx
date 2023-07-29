@@ -3,7 +3,12 @@ import "./Form.scss";
 
 const Form = () => {
   return (
-    <form className="form">
+    <form
+      className="form"
+      onSubmit={(e) => {
+        e.preventDefault();
+      }}
+    >
       <div className="container">
         <div className="form__group">
           <label htmlFor="" className="form__label">
