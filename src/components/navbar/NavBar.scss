@@ -15,9 +15,9 @@ $bp-smallest: 31.25em; // 500px
     align-items: center;
     padding: 1rem 2rem;
 
-    @media only screen and (max-width: $bp-small) {
-      padding: 1rem 5rem;
-    }
+    // @media only screen and (max-width: $bp-small) {
+    //   padding: 1rem 5rem;
+    // }
 
     .nav__btn {
       background-color: var(--color-btn);
@@ -33,9 +33,7 @@ $bp-smallest: 31.25em; // 500px
       width: 10%;
 
       @media only screen and (max-width: $bp-small) {
-        // width: 10%;
-        // width: ;
-        margin-left: 10rem;
+        margin-left: 2.5rem;
       }
     }
   }

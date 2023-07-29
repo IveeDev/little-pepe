@@ -6,8 +6,6 @@ $bp-smallest: 31.25em; // 500px
 
 .app {
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 4rem;
 
   .container {
@@ -47,7 +45,6 @@ $bp-smallest: 31.25em; // 500px
         }
 
         .intro__text {
-          padding: 0 4rem;
           margin-top: 2rem;
 
           @media only screen and (max-width: $bp-small) {
@@ -71,10 +68,7 @@ $bp-smallest: 31.25em; // 500px
         justify-content: center;
         gap: 2rem;
         width: max-content;
-
-        @media only screen and (max-width: $bp-small) {
-          margin-left: 15rem;
-        }
+        margin: 0 auto;
 
         input {
           border: none;

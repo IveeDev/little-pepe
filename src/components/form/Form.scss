@@ -13,9 +13,9 @@ $bp-smallest: 31.25em; // 500px
     gap: 2rem;
     width: max-content;
 
-    @media only screen and (max-width: $bp-small) {
-      margin-left: 15rem;
-    }
+    // @media only screen and (max-width: $bp-small) {
+    //   margin-left: 15rem;
+    // }
 
     .form__group {
       display: flex;
