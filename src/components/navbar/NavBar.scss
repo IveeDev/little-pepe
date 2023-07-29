@@ -16,7 +16,7 @@ $bp-smallest: 31.25em; // 500px
     padding: 1rem 2rem;
 
     @media only screen and (max-width: $bp-small) {
-      padding: 0.7rem 2rem;
+      padding: 1rem 5rem;
     }
 
     .nav__btn {
@@ -30,11 +30,12 @@ $bp-smallest: 31.25em; // 500px
     }
 
     img {
-      width: 10rem;
-      display: block;
+      width: 10%;
 
       @media only screen and (max-width: $bp-small) {
-        width: 10%;
+        // width: 10%;
+        // width: ;
+        margin-left: 10rem;
       }
     }
   }
