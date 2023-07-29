@@ -9,7 +9,7 @@ $bp-smallest: 31.25em; // 500px
   margin-bottom: 4rem;
 
   .container {
-    width: 70rem;
+    width: 60rem;
     text-align: center;
     margin: 0 auto;
 
@@ -24,10 +24,6 @@ $bp-smallest: 31.25em; // 500px
         margin: 0 auto;
         text-align: center;
         color: var(--color-white);
-
-        @media only screen and (max-width: $bp-small) {
-          padding: 0 10rem;
-        }
 
         p {
           color: var(--color-white);
